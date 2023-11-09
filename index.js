@@ -7,7 +7,7 @@ for (i = 0; i < drumEl.length; i++){
     console.log('button clicked', i);
     drumEl[i].addEventListener('click', function () {
         //  alert('I got clicked');
-        var audio = new Audio('./sounds/crash.mp3');
+        var audio = new Audio('./sounds/tom-1.mp3');
         audio.play();
  })
 }
@@ -39,4 +39,4 @@ function calculator(num1, num2, operator) {
 }
 console.log(calculator(10, 4, division));
 
-//Hiw to play sounds on the website.
+//How to play sounds on the website.
