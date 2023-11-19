@@ -12,7 +12,7 @@ for (i = 0; i < drumEl.length; i++) {
     console.log(this);
     var buttonInnerHtml = this.innerHTML;
     console.log(buttonInnerHtml);
-    //Using Switch Statement
+    //Using Switch Statement to playing multiple sounds on the drum kit
     switch (buttonInnerHtml) {
       case "w":
         var tom1 = new Audio("./sounds/tom-1.mp3");
