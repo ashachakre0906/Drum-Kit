@@ -110,3 +110,8 @@ function makeSound(key) {
       break;
   }
 }
+
+function sayHi(to) {
+  console.log(`hey, say hello to ${to}`);
+}
+sayHi('vivaan');
