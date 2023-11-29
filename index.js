@@ -115,3 +115,6 @@ function sayHi(to) {
   console.log(`hey, say hello to ${to}`);
 }
 sayHi('vivaan');
+
+//Adding animation to the website
+//Add the class pressed to the html element so that the user knows which button is pressed
