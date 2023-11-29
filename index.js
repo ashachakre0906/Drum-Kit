@@ -73,30 +73,34 @@ for (i = 0; i < drumEl.length; i++) {
 }
 //High order functions and functions as arguments
 //Function to add numbers
-function add(num1, num2) {
-  return num1 + num2;
-}
-//Function to substract numbers
+// function add(num1, num2) {
+//   return num1 + num2;
+// }
+// //Function to substract numbers
 
-function substract(num1, num2) {
-  return num1 - num2;
-}
+// function substract(num1, num2) {
+//   return num1 - num2;
+// }
 
-//Function for division
+// //Function for division
 
-function division(num1, num2) {
-  return num1 / num2;
-}
+// function division(num1, num2) {
+//   return num1 / num2;
+// }
 
 //Function for multiplication
-function multiplication(num1, num2) {
-  return num1 * num2;
-}
+// function multiplication(num1, num2) {
+//   return num1 * num2;
+// }
 
 //Function which will accept the above functions as inputs
-function calculator(num1, num2, operator) {
-  return operator(num1, num2);
-}
-console.log(calculator(10, 4, division));
+// function calculator(num1, num2, operator) {
+//   return operator(num1, num2);
+// }
+// console.log(calculator(10, 4, division));
 
 //How to play sounds on the website.
+//Adding keypress events to the webpage
+document.addEventListener('keypress', function () {
+  alert('a key is pressed');
+});
