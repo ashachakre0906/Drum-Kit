@@ -9,10 +9,12 @@ for (i = 0; i < drumEl.length; i++) {
   console.log(this);
   drumEl[i].addEventListener("click", function () {
     this.style.color = "white";
-    console.log(this);
+    // console.log(this);
     var buttonInnerHtml = this.innerHTML;
     console.log(buttonInnerHtml);
     makeSound(buttonInnerHtml);
+    addAnimation(buttonInnerHtml)
+    
     //Using Switch Statement to playing multiple sounds on the drum kit
     
     //Using ifelse statement
@@ -73,6 +75,7 @@ for (i = 0; i < drumEl.length; i++) {
 document.addEventListener('keypress', function (event) {
   console.log(event);
   makeSound(event.key);
+  addAnimation(event.key);
 });
 //Understanding callbacks and how to respond to events
 function makeSound(key) {
@@ -118,3 +121,12 @@ sayHi('vivaan');
 
 //Adding animation to the website
 //Add the class pressed to the html element so that the user knows which button is pressed
+
+function addAnimation (currentkey) {
+  var activeButton = document.querySelector('.' + currentkey)
+  console.log(activeButton);
+  //Adding animation which button is clicked
+  //Adding the class pressed so that the button is faded
+  activeButton.classList.add('pressed')
+}
+// addAnimation();
