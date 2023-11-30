@@ -127,6 +127,9 @@ function addAnimation (currentkey) {
   console.log(activeButton);
   //Adding animation which button is clicked
   //Adding the class pressed so that the button is faded
-  activeButton.classList.add('pressed')
+  activeButton.classList.add('pressed');
+  setTimeout(function () {
+    activeButton.classList.remove('pressed');
+  },500)
 }
 // addAnimation();
