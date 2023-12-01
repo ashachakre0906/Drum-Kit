@@ -7,4 +7,4 @@ Drum kit is a web based application that allows user to play different sounds us
 ### Javascript
 
 # Deployment
-web application is deployed here -
+Web application is deployed here -
