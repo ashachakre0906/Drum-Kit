@@ -5,4 +5,4 @@ Drum kit is a web based application that allows user to play different sounds us
 **HTML CSS Javascript**
 
 ## Deployment
-Web application is deployed here - https://ashachakre0906.github.io/Drum-Kit/
+Web application is deployed here https://ashachakre0906.github.io/Drum-Kit/
